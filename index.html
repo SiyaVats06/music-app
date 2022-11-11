@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="image/spotify-logo.png" alt="spotify"><span>musicify</span></li>
+            <li>Home</li>
+            <li>Playlist</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+       
+        <div class="songlist">
+            <h1>Most Played Songs</h1>
+            <div class="songsplaylist">
+            <div class="eachSong" >
+                <img alt="song">
+                <span class="songName"> </i></span><span id="1" class="timeStamp">play <i  class="far fa-play-circle"></i></span>
+            </div>
+            <div class="eachSong" >
+                <img  alt="song">
+                <span class="songName" ></i></span><span id="2" class="timeStamp">play <i  class="far fa-play-circle"></i></span>
+            </div>
+            <div class="eachSong" >
+                <img alt="song">
+                <span class="songName" ></i></span><span id="3" class="timeStamp">play <i  class="far fa-play-circle"></i></span>
+            </div>
+            <div class="eachSong" >
+                <img  alt="song">
+                <span class="songName" ></i></span><span id="4" class="timeStamp">play <i  class="far fa-play-circle"></i></span>
+            </div>
+            <div class="eachSong" >
+                <img alt="song">
+                <span class="songName" > </i></span><span id="5" class="timeStamp">play <i  class="far fa-play-circle"></i></span>
+            </div>
+            <div class="eachSong" >
+                <img alt="song">
+                <span class="songName" ></i></span><span  id="6" class="timeStamp">play <i  class="far fa-play-circle"></i></span>
+            </div>
+            
+        </div>
+        </div>
+        <div class="banner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type ="range" name="range" id="myProgressBar" min="0" value="0" max="100 ">
+        <div class="icons">
+            <i class="fa-solid fa-backward"></i>
+            <i class="far fa-play-circle" id="masterplay"></i>
+            <i class="fa-solid fa-forward"></i>
+        </div>
+        <div class="songInfo">
+            <img id="gif" src="image/music-gif.gif" alt="gif">
+        
+        </div>
+        <div id="runningSong">hello</div>
+    </div>
+    <script src="https://kit.fontawesome.com/59034e0931.js" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+    
+</body>
+</html>

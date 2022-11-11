@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Varela+Round&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  ;
+}
+html{
+    background-color: black;
+}
+nav ul{
+    width: 100vw;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    background-color: black;
+    color: white;
+ 
+    align-items: center
+}
+nav ul li{
+     
+  padding: 0 20px;
+}
+img{
+
+    width: 30px;
+    height: 30px;
+}
+.brand{
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.container{
+    
+    min-height: 72vh;
+    background-color: rgb(0, 5, 3);
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 75%;
+    border-radius: 12px;
+    padding: 40px;
+    background-image: url('image/back-img.jpg');
+    background-size: cover;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+#myProgressBar{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    font-size:2rem;
+    margin-top: 15px;
+    cursor: pointer;
+   
+}
+
+.songsplaylist{
+    margin-top: 20px;
+}
+.eachSong{
+    position: relative;
+    margin: 15px;
+    display: flex;
+    color: black;
+    align-items: center;
+    background-color: rgb(185, 160, 160);
+    border-radius: 25px;
+    height: 35px;
+    padding: 10px;
+    width: 400px;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+.eachSong img{
+    border-radius: 25px;
+}
+.eachSong span{
+    margin-left: 20px;
+}
+.timeStamp{
+  position: absolute;
+  right: 8px;
+    margin-top: 4px;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    top: 40px;
+}
+.songInfo img{
+    width: 200px;
+    height: 60px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+#runningSong{
+    color: white;
+    position: absolute;
+    right: 300px;
+    top: 55px;
+    font-size: larger;
+}
+@media(max-width:768px){
+    .eachSong{
+        position: relative;
+        margin: 15px;
+        display: flex;
+        color: black;
+        align-items: center;
+        background-color: rgb(185, 160, 160);
+        border-radius: 25px;
+        height: 35px;
+        padding: 10px;
+        width: 350px;
+        cursor: pointer;
+        font-weight: 300;
+        
+    }
+    #runningSong{
+        color: white;
+        position: absolute;
+        right: 100px;
+        top: 55px;
+        font-size: larger;
+    }
+    
+}
+@media(max-width:400px) {
+    .eachSong{
+        position: relative;
+        margin: 15px;
+        display: flex;
+        color: black;
+        align-items: center;
+        background-color: rgb(185, 160, 160);
+        border-radius: 25px;
+        height: 35px;
+        padding: 10px;
+        width: 250px;
+        cursor: pointer;
+        font-weight: 300;
+        
+    }
+    .container{
+    
+        min-height: 72vh;
+        background-color: rgb(0, 5, 3);
+        color: white;
+        display: flex;
+        margin: 23px auto;
+        width: 75%;
+        border-radius: 12px;
+        padding: 20px;
+        background-image: url('image/back-img.jpg');
+        background-size: cover;
+    }
+    #runningSong{
+        color: white;
+        position: absolute;
+        right: 40px;
+        top: 55px;
+        font-size: larger;
+    }
+    .icons{
+        font-size:2rem;
+        margin: 15px;
+        cursor: pointer;
+       
+    }
+   
+}
