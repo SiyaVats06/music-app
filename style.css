@@ -146,7 +146,7 @@ img{
     }
     
 }
-@media(max-width:400px) {
+@media(max-width:425px) {
     .eachSong{
         position: relative;
         margin: 15px;
@@ -168,6 +168,8 @@ img{
         background-color: rgb(0, 5, 3);
         color: white;
         display: flex;
+        justify-content: center;
+        align-items: center;
         margin: 23px auto;
         width: 75%;
         border-radius: 12px;
@@ -178,7 +180,7 @@ img{
     #runningSong{
         color: white;
         position: absolute;
-        right: 40px;
+        right: 30px;
         top: 55px;
         font-size: larger;
     }
@@ -187,6 +189,12 @@ img{
         margin: 15px;
         cursor: pointer;
        
+    }
+    .songInfo img{
+        width: 50px;
+        height: 60px;
+        opacity: 0;
+        transition: opacity 0.4s ease-in;
     }
    
 }
