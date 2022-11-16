@@ -13,12 +13,12 @@ let prevplay=document.getElementById('prevplay')
 let nextplay=document.getElementById('nextplay')
 
 
-let songs = [{ filename: "Bazz-damial", filepath: "music/1.mp3", coverpath: "image/1.png" },
-{ filename: "tujhme-rab", filepath: "music/2.mp3", coverpath: "image/1.png" },
+let songs = [{ filename: "Bazz", filepath: "music/1.mp3", coverpath: "image/1.png" },
+{ filename: "rab", filepath: "music/2.mp3", coverpath: "image/1.png" },
 { filename: "Friends", filepath: "music/3.mp3", coverpath: "image/1.png" },
 { filename: "Bazz", filepath: "music/1.mp3", coverpath: "image/1.png" },
 { filename: "Bholenath", filepath: "music/5.mp3", coverpath: "image/1.png"},
-{ filename: "koi-tumsa-nhi", filepath: "music/6.mp3", coverpath: "image/1.png" }]
+{ filename: "krrish", filepath: "music/6.mp3", coverpath: "image/1.png" }]
 
 songItem.forEach((element,i) => {
     element.getElementsByTagName('img')[0].src=songs[i].coverpath;
